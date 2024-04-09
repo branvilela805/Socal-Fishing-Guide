@@ -1,39 +1,86 @@
 <!DOCTYPE html>
-<html>
-
+<html lang="en">
 <head>
-    <title>LA TV Shows | Home</title>
-    <meta name="description" content="A Catalog of Shows Set in Los Angeles">
-    <link rel="stylesheet" href="style.css" />
-    <script type="text/javascript" src="scripts.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 
+
 <body>
-    <header class="main-header">
-        <h1 class="title">LA TV Shows</h1>
-    </header>
-    <div id="card-container">
+  <h1>Hello Snapchat</h1>
+ 
+  <h2>Welcome to Brandon's Socal Fishing Guide </h2>
+  <h3>Please Select your type of Fishing</h3>
+ 
+    <div class = "box">
+        <h4>Salt Water</h4>
+        <img src= "Halibut.jpg"
+        height="250">
+
+      
+
+        <p>Learn more about Salt Water fish and their specific bait and lures to catch them.  </p>
+    
+     <ul>
+    
+            <li>California Halibut</li>
+            <li>Rockfish</li>
+            <li>Seabass</li>
+            <li>Sheephead</li>
+            
+    
+     </ul>
+     <a href="https://nrm.dfg.ca.gov/FileHandler.ashx?DocumentID=59206&inline" target="_blank" 
+    
+        <button onclick = "revealMessage()">Click Here</button> 
+        
+     </a>
+     
+     <p id="hiddenMessage" style="display:none">Coming Soon: Summer 2024</p>
+
+    </div>
+
+    <div class="box">
+        <h5>Fresh Water</h5>
+        <img src= "freshWater.png"
+        height="225">
+
+       
+        <p>Learn more about Fresh Water fish and their specific bait and lures to catch them</p>
+
+        <ul>
+            <li>Trout</li>
+            <li>Salmon</li>
+            <li>Largemouth Bass</li>
+            <li>Bluegill</li>
+    
+    
+        </ul>  
+
+        <a href="https://oehha.ca.gov/fish/advisories" target="_blank" 
+    
+            <button onclick =  "revealMessage2()">Click Here</button> 
+        </a>
+
+        <p id="hiddenMessage2" style="display:none">Coming Soon: Summer 2024</p>
+    
+      
+      
         
     </div>
-    <div class="card" style="display: none;">
-        <div class="card-content">
-            <h2>TV Show Title</h2>
-            <img src="" alt="TV Show Poster">
-            <ul>
-                <li>Bullet Point 1</li>
-                <li>Bullet Point 2</li>
-                <li>Bullet Point 3</li>
-            </ul>
-        </div>
-    </div>
-    <div class="footer">
-        <button onclick="quoteAlert();">
-            Get A Quote!
-        </button>
-        <button onclick="removeLastCard();">
-            Remove A Card!
-        </button>
-    </div>
-</body>
 
+
+
+  
+
+   
+
+</div>
+
+ 
+
+</body>
 </html>
